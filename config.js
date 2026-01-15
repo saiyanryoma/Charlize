@@ -25,7 +25,7 @@ const CONFIG = {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "I guess I like you a lot! ❤️"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
@@ -33,7 +33,7 @@ const CONFIG = {
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
+            text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -42,8 +42,8 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "AH THATS THE CORRECT ANSWER 🥰🚀💝",  // Shows when they go past 5000%
-        high: "not quite yet, almost there 🚀💝",              // Shows when they go past 1000%
+        extreme: "AH THATS THE CORRECT ANSWER 💝",  // Shows when they go past 5000%
+        high: "not quite yet, almost there",              // Shows when they go past 1000%
         normal: "so u hate me?"                           // Shows when they go past 100%
     },
 
